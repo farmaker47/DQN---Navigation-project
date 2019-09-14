@@ -1,6 +1,9 @@
 # DQN - Navigation-project
 
 This project is an implementation of [DQN paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
+
+
+
 ![](banana_col.gif)
 
 ## Installation
