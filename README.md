@@ -34,6 +34,34 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 2. Place the file in the DRLND GitHub repository, in the ```p1_navigation/``` folder, and unzip (or decompress) the file.
 
+3. Make sure you install Anaconda. You can download it from [here](https://www.anaconda.com/distribution/)
+
+4. Now you can create your environment. Lets call our environment ```DRLND```
+  
+   Linux,Mac
+   ```
+   conda create --name drlnd python=3.6
+   source activate drlnd
+   ```
+   Windows
+   ```
+   conda create --name drlnd python=3.6 
+   activate drlnd
+   ```
+ 5. We will be working with pytorch version 0.4.0 (an early version), so make sure that you install this version of pytorch:
+   ```
+   conda install pytorch=0.4.0 -c pytorch
+   ```
+ 6. Perform a minimal installation of the [OpenAI Gym environment](https://github.com/openai/gym)
+ 
+ 7. Use command ```pip install``` and use it with all dependencies of the requirements.txt file
+ 
+ 8. Create a Python execution backend for Jupyter for the drlnd environment 
+   ```
+   python -m ipykernel install --user --name drlnd --display-name "drlnd"
+   ```
+ AND you are ready to use the environments
+
 ## Instructions
 Follow the instructions in ```Navigation.ipynb``` to get started with training your own agent!
 
