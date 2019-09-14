@@ -31,5 +31,8 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - ```2``` - turn left.
 - ```3``` - turn right. 
 
+## Run the code
+Execute the cells inside Navigation.ipynb file in sequential order so to proceed with training the agent. Tweak the hyperparameters to get different results. No need of GPU as this project is fast enough with CPU power.
+
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
